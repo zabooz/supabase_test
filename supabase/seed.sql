@@ -121,6 +121,12 @@ SET row_security = off;
 
 
 --
+-- Data for Name: cities; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+
+
+--
 -- Data for Name: employees; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -173,6 +179,7 @@ INSERT INTO "public"."passwordplayground" ("id", "username", "password_hash", "c
 	(49, 'user18', 'hashed_password_18', '2024-09-11 12:19:38.735703+00', 'user18@example.com', 27, 95, 51, 56, 'src/assets/profilePics/profile3.jpeg'),
 	(50, 'user19', 'hashed_password_19', '2024-09-11 12:19:38.735703+00', 'user19@example.com', 29, 56, 48, 47, 'src/assets/profilePics/profile6.jpeg'),
 	(51, 'user20', 'hashed_password_20', '2024-09-11 12:19:38.735703+00', 'user20@example.com', 21, 91, 56, 5, 'src/assets/profilePics/profile5.jpeg'),
+	(52, 'userlololol', 'hashed_password_20', '2024-09-11 12:19:38.735703+00', 'lolol@example.com', 21, 91, 56, 5, 'src/assets/profilePics/profile5.jpeg'),
 	(55, 'blubq', '$2b$10$C3xTRjLOyIAQ9c7ErIKlLerCwdcnWPmF31kk6J4SCmvLBTNy7s.Se', '2024-09-12 11:15:05.004808+00', 'sdg@sdg.com', 1, 0, 0, 0, 'src/assets/profilePics/profile5.jpeg'),
 	(81, 'git', '$2b$10$xiUKi3ZyBqS2/cTVdltihOZz9b.Uvac0c0wruJvlrFZlWMmlN1NRq', '2024-09-16 06:58:30.557946+00', 'git@git.com', 34596, 174, 27, 29, '/assets/profilePics/profile18.jpeg');
 
@@ -230,6 +237,13 @@ SELECT pg_catalog.setval('"pgsodium"."key_key_id_seq"', 1, false);
 --
 
 SELECT pg_catalog.setval('"public"."blub_id_seq"', 1, false);
+
+
+--
+-- Name: cities_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('"public"."cities_id_seq"', 1, false);
 
 
 --
